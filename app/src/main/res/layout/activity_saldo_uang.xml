@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".saldoUang"
+    android:orientation="vertical"
+    android:background="#181CA7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo Anda"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#fafafa"/>
+
+    <TextView
+        android:id="@+id/tvnominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:textColor="#fafafa" />
+
+    <Button
+        android:id="@+id/btnOpsiKeluar"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Input Pengeluaran"
+        android:background="#303F9F"
+        android:textColor="#ffff"
+        android:layout_marginTop="200dp"/>
+
+</LinearLayout>

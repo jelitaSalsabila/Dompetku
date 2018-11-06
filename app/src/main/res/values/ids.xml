@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtpassword1" type="id" />
+    <item name="list_keluar" type="id" />
+    <item name="txtuser1" type="id" />
+</resources>

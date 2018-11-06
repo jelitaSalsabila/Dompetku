@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".pengeluaran"
+    android:background="#181CA7">
+
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txttoken"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No.Token"
+            android:background="@drawable/backedittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtketerangan"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan..."
+            android:background="@drawable/backedittext"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtuser_out"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:background="@drawable/backedittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtnominal"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nominal"
+            android:background="@drawable/backedittext"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtTanggal"
+                android:padding="15dp"
+                android:background="@drawable/backedittext"
+                android:textSize="20dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:saveEnabled="false"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal..."/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnTanggal"
+                    android:textColor="@android:color/white"
+                    android:padding="10dp"
+                    android:background="#303F9F"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Pilih Tanggal"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:textColor="@android:color/white"
+            android:padding="1dp"
+            android:background="#303F9F"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    </LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#181CA7"
+    android:padding="18dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".inputUang">
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtTanggal"
+            android:padding="15dp"
+            android:background="@drawable/backedittext"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:saveEnabled="false"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal..."/>
+
+        <LinearLayout
+            android:background="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnTanggal"
+                android:textColor="#fefbfb"
+                android:padding="10dp"
+                android:background="#303F9F"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Pilih Tanggal"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtinput"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nominal"
+            android:background="@drawable/backedittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nameuser"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:background="@drawable/backedittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtToken"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No.token"
+            android:background="@drawable/backedittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+        android:id="@+id/btnSave"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:background="#303F9F"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tampilanRegistrasi"
+    android:background="#181CA7"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:id="@+id/txtuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:padding="10dp"
+            android:background="@drawable/backedittext"/>
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/txtpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backedittext"
+            android:padding="10dp"/>
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:id="@+id/txtname"
+            android:background="@drawable/backedittext"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+        <EditText
+            android:inputType="text"
+            android:id="@+id/txtsekolah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="sekolah"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backedittext"
+            android:padding="10dp"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/Nomorhportu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor orang tua"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backedittext"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btndaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#303F9F"
+            android:textColor="#fbf9f9"
+            android:text="Daftar" />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner1"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</LinearLayout>
